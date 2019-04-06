@@ -20,3 +20,17 @@ function johnLennonFacts(factsArray) {
 
   return factsArray;
 }
+
+// add a string to an array at least one time with a do while loop
+function iLoveTheBeatles(int) {
+  let love4Beatles = [];
+  let i = 15 - int;
+
+  function counter() {
+    return ++i;
+  }
+
+  do {
+    love4Beatles.push('I love the Beatles!');
+  } while (counter() < 15)
+}
