@@ -33,5 +33,5 @@ function iLoveTheBeatles(int) {
     love4Beatles.push('I love the Beatles!');
   } while (counter() < 15)
 
-  return love4beatles;
+  return love4Beatles;
 }
